@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Centro de Ayuda</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+
+
+body {
+  animation: fadeSlideIn 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+        .help-search {
+            border-radius: 24px;
+            padding: 12px 16px;
+            border: 1px solid #ddd;
+        }
+        .help-section {
+            border-bottom: 1px solid #eee;
+            padding: 24px 0;
+        }
+        .featured-article {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .category-title {
+            font-weight: 600;
+            color: #333;
+        }
+        .article-title {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Don Tees</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">Preguntas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-4">
+        <!-- Sección principal de búsqueda -->
+        <div class="row mb-5">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="mb-4">¿Cómo podemos ayudarte?</h1>
+                <div class="mb-4">
+                    <input type="text" class="form-control help-search" placeholder="Escribe tu pregunta">
+                </div>
+                <div class="card p-3 mb-4 bg-light">
+                    <p class="mb-2">¿Problemas con un pedido? Contacta al vendedor con una solicitud de ayuda.</p>
+                    <button class="btn btn-outline-dark align-self-start">Obtener ayuda con un pedido</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Secciones de navegación -->
+        <div class="row mb-4">
+            <div class="col-md-8 mx-auto">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="mx-3 text-dark">Comprar en Camila T-shirt</a>
+                    <a href="#" class="mx-3 text-dark fw-bold">Vender en Camila T-shirt</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artículos destacados -->
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2 class="mb-4">Artículos destacados</h2>
+
+                <!-- Grupo 1 -->
+                <div class="help-section">
+                    <h5 class="category-title">Después de tu compra</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">¿Cuál es el estado de mi pedido?</a>
+                    </div>
+                </div>
+
+                <!-- Grupo 2 -->
+                <div class="help-section">
+                    <h5 class="category-title">Problemas con pedidos y devoluciones</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Cómo obtener ayuda con un pedido</a>
+                    </div>
+                </div>
+
+                <!-- Grupo 3 -->
+                <div class="help-section">
+                    <h5 class="category-title">Compras y regalos</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Cómo contactar una tienda</a>
+                    </div>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Cómo comprar una tarjeta de regalo de Camila T-shirt</a>
+                    </div>
+                </div>
+
+                <!-- Grupo 4 -->
+                <div class="help-section">
+                    <h5 class="category-title">Búsqueda de artículos</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Cómo buscar artículos</a>
+                    </div>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Cómo encontrar los mejores artículos</a>
+                    </div>
+                </div>
+
+                <!-- Grupo 5 -->
+                <div class="help-section">
+                    <h5 class="category-title">Después de tu compra</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">¿Cómo actualizo mi dirección de envío?</a>
+                    </div>
+                </div>
+
+                <!-- Grupo 6 -->
+                <div class="help-section">
+                    <h5 class="category-title">Compra segura</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Consejos para comprar de forma segura en Camila T-shirt</a>
+                    </div>
+                </div>
+
+                <!-- Grupo 7 -->
+                <div class="help-section">
+                    <h5 class="category-title">Compras y regalos</h5>
+                    <div class="featured-article">
+                        <a href="#" class="article-title">Cómo comprar un artículo en Camila T-shirt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
